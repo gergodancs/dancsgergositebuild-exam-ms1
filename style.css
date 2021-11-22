@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+.segy {
+    height: 50vh;
+    width: 100vw;
+}
+.sectionegy {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100vw;    
+    background-color: bisque;
+}
+.sectionketto {
+    height: 50vh;
+    width: 100vw;    
+    background-color: grey;
+}
+.gombegy {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+    
+}
+.gombketto {
+    
+    width: 200px;
+    height: 60px;
+    margin-top: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: 40px;
+    
+  
+    
+    
+}
+.gombharom {
+    
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);   
+    
+
+}
